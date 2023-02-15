@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
+/* ------------MEDIA QUERIES ------------ */
+@media screen and (min-width:992px){
+    .navbar .container-fluid{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:567){
+    .card-text{
+        margin-bottom: 0;
+    }
+}
+/* ------------MEDIA QUERIES ------------ */
+
+
+
+
+
+/* ----------------NAVBAR---------------- */
+.navbar-brand{
+    margin-right: 0;
+}
+
+.navbar-brand img{
+    width: 250px;
+}
+
+
+.navbar .navbar-nav .nav-item{
+    padding: .5em 1em;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: black;
+    font-size: 1.1em;
+}
+
+.navbar .navbar-nav{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: .5em;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: #d90368;
+    opacity: .8;
+    color: white;
+}
+
+.navbar-nav .active{
+    border-bottom: 7px solid #d90368;
+}
+/* ----------------NAVBAR---------------- */
+
+
+
+
+
+
+
+
+/* ----------------CARDS ---------------- */
+.card:hover{
+    border-color: #d90368;
+    box-shadow: 0 0 10px 2px rgba(217, 3, 104, .6);
+}
+
+.btn{
+    background-color: #d90368 !important;
+    color: white !important;
+}
+
+.btn:hover{
+    background-color: #dd438b !important;
+}
+
+.details-card{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* ----------------CARDS ---------------- */
+
+
+
+
+/* ----------------FOOTER ---------------- */
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-text{
+    text-align: center;
+}
+
+footer{
+    border-top: 2px solid black;
+    margin: 3rem;
+}
+
+.social-media a img{
+    margin: 5px;
+}
+.social-media a img:hover {
+    transform: scale(1.1);
+}
+/* ----------------FOOTER ---------------- */
+
+
+
+
+
+/* ----------------HEADER ---------------- */
+
+header{
+    background-color: #d90368;
+    color: white;
+    display: block;
+}
+
+#category-checkboxs{
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+  
+  label, input > form {
+    display:inline; 
+    list-style:none;
+    margin-right: 10px;
+  }
+  
+  nav:last-child > form{
+    margin-right: 200px;
+  }
+  
+  nav:last-child{
+    float:right;
+  }
+
+  .btn-outline-success{
+    display: inline;
+    float:right
+  }
+
+#searchbtn{
+    margin-left: 10px;
+}
+
+.nav-arrows{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.nav-arrows a img{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    max-width:100%;
+    width: 200px;
+    height: auto;
+
+}
+
+.arrow:hover{
+    transform: scale(1.1);
+}
+/* ----------------HEADER ---------------- */
+
+
+
+/* ----------------TEXTOS Y PAG STUFF ---------------- */
+main{
+    margin-top: 2rem;
+}
+
+h1{
+    padding-top: 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+h1, h5{
+    overflow: hidden;
+}
+
+/* ----------------TEXTOS Y PAG STUFF ---------------- */
+
+
+
+
+/* ------------------ FORM ------------------- */
+.my-form{
+    padding: 2em;
+    color: white;
+    max-width: 45vh;
+    margin-inline: auto;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.486);
+}
+/* ------------------ FORM ------------------- */
+
+
+
+
+
+/* ------------------ TABLA ------------------- */
+
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+table td{
+    border: 1px solid #333;
+    font-weight: 500;
+}
+
+table th{
+    border: 1px solid #333;
+    font-size:x-large;
+    background-color: #333;
+    color: white;
+}
+
+table tr{
+    border: 1px solid #333;
+}
+
+.stats-table{
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.486);
+}
+
+/* ------------------ FORM ------------------- */
+
+
+/* --------DETAILS Y SHOWDATA ---- */
+.return-button{
+    margin: 20px;
+    margin-left: 620px;
+}
+
+
+.showdatabg{
+    background-color: ;
+}
+
+.feedback-th{
+    background-color: #d90368;
+}
+
+
+
+
